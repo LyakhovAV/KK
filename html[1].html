@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Корги Коржик</title>
+</head>
+<body>
+    <table cellspacing="15">
+        <tr>
+            <td>
+                <img src="QQ9UBJwW6Jc.jpg" 
+                width="200" alt="foto">
+            </td>
+            <td>
+                <h1>Корги Коржик</h1>
+                <p><em>Я заряжаю позитивом, а перед моими ушами невозможно устоять</em></p>
+                <p><strong>Все о жизни с толстовкой</strong></p>
+                <p>Я люблю есть всякие гадости на улице и шкодить</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h2>мои социальные сети</h2>
+    <ul type="square">
+    <li> <a href="https:www.instagram.com/corgi_korzhik"
+        target="_blank">Instagram</a></li>
+    <li><a href="https:www.youtube.com/@Corgi_korzhik_"
+        target="_blank">YouTube</a></li>
+    </ul>
+    <hr>
+    <h2>мое хобби</h2>
+    <ol>
+        <li>Играть с мячом</li>
+        <li>Путешествовать</li>
+        <li>Ругаться с собаками (мальчиками)</li>
+    </ol>
+    <hr>
+    
+    </form>
+    <hr>
+    <h2>Сотрудничество</h2>
+    <table>
+        <tr>
+            <td>реклама одежды,</td>
+            <td>реклама еды,</td>
+            <td>реклама аккаунтов,</td>
+            <td>фотосессии</td>
+        </tr>
+    </table>
+    <h2>Связь с мамой</h2>
+    <form action="/"> 
+        <label for="">Ваше имя</label>
+        <input type="text" id="name"
+        placeholder="Введите имя">
+        <br>
+        <label for="">Ваш email</label>
+        <input type="email" id="email"
+        placeholder="Email">
+        <br>
+        <textarea name="" id="" cols="50" rows="7"></textarea>
+        <br>
+        <input type="submit" value="Связаться">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
